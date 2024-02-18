@@ -1,0 +1,182 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+#body
+{
+	background-image:url('../img/background.jpg');
+	background-size: 100%;
+	background-attachment:fixed;
+}
+
+#menu
+{
+	height:100px;
+	width:100%;
+	background-color:#00BFFF;
+	position:fixed;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	border-radius:0 0 20px 20px;
+}
+
+#menu_main
+{
+	height:100%;
+	width:75%;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+}
+
+.menu-list
+{
+	padding:0 50px 0 50px;
+	height:80%;
+	margin:5px 15px 5px 15px;
+	font-size:36px;
+	color:#FFFFFF;
+	text-shadow:3px 3px 3px #222222;
+	font-family:"等线";
+	font-weight:600;
+	display:flex;
+	align-items:center;
+	text-align:center;
+	justify-content:center;
+	text-decoration:none;
+}
+
+#birthday_part
+{
+	display:flex;
+	width:100%;
+	justify-content:center;
+	background-color:rgba(245, 245, 245, 0.8);
+}
+
+.main
+{
+	min-height:520px;
+	min-width:80%;
+	padding-top:145px;
+	padding-bottom:25px;
+	display:flex;
+	flex-direction:column;
+}
+
+#birthday_content
+{
+	display:flex;
+	align-items:center;
+	width:100%;
+	flex-direction:column;
+}
+
+#birthday_cn
+{
+	text-align:center;
+	width:100%;
+	font-family:"华文行楷";
+	font-size:60px;
+	text-shadow:5px 5px 5px #BBBBBB;
+	padding:20px 0 20px 0;
+	margin:10px 0 10px 0;
+	border-top:solid 5px #9966CC;
+}
+
+#birthday_en, #birthday_fr
+{
+	text-align:center;
+	width:100%;
+	font-family:"Consolas";
+	font-size:50px;
+	text-shadow:5px 5px 5px #BBBBBB;
+	padding:20px 0 20px 0;
+	margin:10px 0 10px 0;
+}
+
+#birthday_jp
+{
+	text-align:center;
+	width:100%;
+	font-family:"楷体";
+	font-size:60px;
+	text-shadow:5px 5px 5px #BBBBBB;
+	padding:20px 0 20px 0;
+	margin:10px 0 10px 0;
+	border-bottom:solid 5px #9966CC;
+}
+
+#poem_part,#photo_part
+{
+	width:100%;
+	display:none;
+	align-items:center;
+	flex-direction:column;
+}
+
+#poem_main
+{
+	flex-direction:row;
+}
+
+.poem
+{
+	width:100%;
+	padding:10px;
+	margin:20px 10px 20px 10px;
+	border-style:dashed;
+	border-width:5px;
+	border-color:#9966CC;
+	border-radius:10px;
+	background-color:rgba(245, 245, 245, 0.8);
+}
+
+.poem_title
+{
+	text-align:center;
+	font-family:"华文行楷";
+	padding:8px 0 0 0;
+}
+
+.poem_time
+{
+	text-align:center;
+	font-family:"楷体";
+	padding:10px 0 10px 0;
+}
+
+.poem_content
+{
+	min-width:228px;
+	text-align:center;
+	font-family:"仿宋";
+	padding:3px 0 3px 0;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.photoshop
+{
+	padding:10px;
+	border-style:solid;
+	border-width:5px;
+	border-color:#9966CC;
+	border-radius:20px;
+	margin:10px 200px 10px 200px;
+}
+
+#pagefoot
+{
+	height:50px;
+	width:100%;
+	background-color:#00BFFF;
+	display:flex;
+	align-items:center;
+	text-align:center;
+	justify-content:space-around;
+	border-radius:20px 20px 0 0;
+}
